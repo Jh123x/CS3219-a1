@@ -1,0 +1,1 @@
+docker run --name taska1 -p 80:8000 taska1
