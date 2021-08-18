@@ -1,4 +1,7 @@
 # CS3219-a1
+
+# Prerequisites
+1. Docker
  
 # Quick start guide
 1. For `Windows` run `setup.bat`
@@ -8,6 +11,7 @@
 ## Note:
 For unix users, remember to unblock port 80 as the website runs on port 80
 
-
-# Prerequisites
-1. Docker
+# Tech Stack
+1. Flask
+1. Gunicorn
+1. Pygments
