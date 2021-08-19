@@ -13,6 +13,7 @@ WORKDIR /home/taska1/app
 COPY . .
 COPY ./nginx/nginx.conf /etc/nginx
 RUN pip3 install -r requirements.txt
+RUN /usr/bin/nginx
 
 EXPOSE 8000
 
