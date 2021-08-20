@@ -11,7 +11,7 @@ WORKDIR /app
 COPY . .
 RUN pip3 install -r requirements.txt
 
-EXPOSE 80
+EXPOSE 8000
 
 # Run the flask application
 CMD ["python3", "-m", "gunicorn", "wsgi:app"]
